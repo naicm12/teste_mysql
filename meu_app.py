@@ -9,5 +9,5 @@ conn = st.connection('mysql', type='sql')
 df = conn.query('SELECT * from TESTE;', ttl=600)
 
 # Print results.
-for row in df.itertuples():
-    st.write(f"{row.NOME}") ## has a :{row.pet}:")
+#for row in df.itertuples():
+#    st.write(f"{row.NOME}") ## has a :{row.pet}:")
